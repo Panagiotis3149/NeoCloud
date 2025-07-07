@@ -108,6 +108,7 @@
       "White Text": false,
       "White Information": false,
       "White Sidebar": false,
+      "Hide Render": false,
       "Bloom Type": 0.0,
       "Blur Type": 0.0,
       "Background Type": 0.0,
@@ -206,7 +207,7 @@
     },
     {
       "name": "BPSCounter",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "posX": 2,
@@ -324,15 +325,8 @@
       "Remove jump ticks": true
     },
     {
-      "name": "Disabler",
-      "enabled": false,
-      "hidden": false,
-      "keybind": 0,
-      "Mode": 0.0
-    },
-    {
       "name": "FPSCounter",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "posX": 67,
@@ -487,13 +481,6 @@
       "Invert yaw": true,
       "Jump": false,
       "Stop motion on disable": false
-    },
-    {
-      "name": "ModeVelo",
-      "enabled": true,
-      "hidden": false,
-      "keybind": 0,
-      "Mode": 0.0
     },
     {
       "name": "MurderMystery",
@@ -715,10 +702,17 @@
       "Strafe only": false
     },
     {
+      "name": "Transactions",
+      "enabled": false,
+      "hidden": false,
+      "keybind": 0
+    },
+    {
       "name": "Velocity",
       "enabled": false,
       "hidden": false,
       "keybind": 0,
+      "Mode": 0.0,
       "Horizontal": 0.0,
       "Vertical": 0.0,
       "Chance": 100.0,
