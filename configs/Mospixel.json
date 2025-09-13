@@ -38,7 +38,7 @@
       "Delay": 8.0,
       "Pit spawn": true,
       "Tab list": true,
-      "MatrixTest": false
+      "Matrix": false
     },
     {
       "name": "AntiFireball",
@@ -452,8 +452,8 @@
       "Clicker Mode": 1.0,
       "FOV": 360.0,
       "Reach": 3.0,
-      "Autoblock": 6.0,
-      "Right Click Only": true,
+      "Autoblock": 5.0,
+      "Right Click Only": false,
       "Sorting": 3.0,
       "Switch Delay": 200.0,
       "Rotation Mode": 1.0,
@@ -554,7 +554,6 @@
       "hidden": false,
       "keybind": 0,
       "Include cancelled": true,
-      "Singleplayer": false,
       "Sent": false,
       "Ignore C0F": false,
       "Ignore C03": false,
@@ -608,6 +607,7 @@
       "Multi-place": 1.0,
       "Theme (For Highlight)": 13.0,
       "Tower Mode": 2.0,
+      "Tower Move": false,
       "Auto Swap": true,
       "Delay on jump": true,
       "Fast on RMB": false,
@@ -632,7 +632,10 @@
       "Random yaw factor": 0.0,
       "Send message on enable": true,
       "Offset": 0.5,
-      "Time multiplier": 1.0
+      "Time multiplier": 1.0,
+      "Spaced Names": false,
+      "Special Naming": false,
+      "Weedhack": false
     },
     {
       "name": "Speed",
@@ -690,7 +693,7 @@
       "hidden": false,
       "keybind": 19,
       "Theme": 13.0,
-      "Mode": 3.0,
+      "Mode": 1.0,
       "Show win or loss": true,
       "Traditional health color": false
     },
