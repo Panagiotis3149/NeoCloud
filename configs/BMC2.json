@@ -38,7 +38,7 @@
       "Delay": 8.0,
       "Pit spawn": true,
       "Tab list": true,
-      "Matrix": false
+      "MatrixTest": false
     },
     {
       "name": "AntiFireball",
@@ -97,24 +97,24 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "posX": 838,
-      "posY": 43,
+      "posX": 889,
+      "posY": 1,
       "Font": 0.0,
-      "Theme": 25.0,
+      "Theme": 7.0,
       "Align right": true,
       "Alphabetical sort": false,
-      "Drop shadow": false,
+      "Drop shadow": true,
       "Lowercase": false,
-      "Show module info": false,
+      "Show module info": true,
       "White Text": false,
       "White Information": false,
       "White Sidebar": false,
-      "Hide Render": false,
+      "Hide Render": true,
       "Bloom Type": 0.0,
       "Blur Type": 0.0,
-      "Background Type": 0.0,
+      "Background Type": 2.0,
       "Color Type": 0.0,
-      "Sidebar Type": 2.0
+      "Sidebar Type": 0.0
     },
     {
       "name": "AutoClicker",
@@ -176,17 +176,17 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "posX": 2,
-      "posY": 505,
-      "Minecraft Font": false,
+      "posX": 3,
+      "posY": 507,
+      "Minecraft Font": true,
       "BPS: Prefix": true,
       "Background": true,
       "Blur": false,
-      "Shadow": true
+      "Shadow": false
     },
     {
       "name": "BedAura",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 48,
       "Break mode": 2.0,
@@ -210,7 +210,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Theme": 25.0,
+      "Theme": 7.0,
       "Range": 30.0,
       "Rate": 0.4,
       "Only render first bed": false,
@@ -255,7 +255,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Theme": 0.0,
+      "Theme": 7.0,
       "Outline": false,
       "Shade": false,
       "Disable if opened": false
@@ -280,7 +280,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Theme": 25.0
+      "Theme": 7.0
     },
     {
       "name": "DelayRemover",
@@ -366,7 +366,7 @@
       "enabled": false,
       "hidden": false,
       "keybind": 54,
-      "Theme": 25.0
+      "Theme": 7.0
     },
     {
       "name": "Helper",
@@ -387,10 +387,10 @@
     },
     {
       "name": "Interface",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "No Scoreboard": true
+      "No Scoreboard": false
     },
     {
       "name": "InvManager",
@@ -439,7 +439,7 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Slow %": 0.0,
+      "Slow %": 10.0,
       "Disable while jumping": false,
       "Only reduce reach hits": false
     },
@@ -528,7 +528,7 @@
     },
     {
       "name": "NoSlow",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Mode": 4.0,
@@ -540,13 +540,13 @@
     },
     {
       "name": "Notifications",
-      "enabled": true,
+      "enabled": false,
       "hidden": true,
       "keybind": 0,
       "Show in chat": false,
       "Module toggled": true,
-      "Glow": true,
-      "Theme": 25.0
+      "Glow": false,
+      "Theme": 7.0
     },
     {
       "name": "PacketViewer",
@@ -554,6 +554,7 @@
       "hidden": false,
       "keybind": 0,
       "Include cancelled": true,
+      "Singleplayer": false,
       "Sent": false,
       "Ignore C0F": false,
       "Ignore C03": false,
@@ -600,20 +601,19 @@
       "enabled": false,
       "hidden": false,
       "keybind": 34,
-      "Motion": 0.95,
+      "Motion": 0.9,
       "Rotation": 3.0,
-      "Fast scaffold": 10.0,
+      "Fast scaffold": 6.0,
       "Precision": 2.0,
       "Multi-place": 0.0,
-      "Theme (For Highlight)": 25.0,
-      "Tower Mode": 2.0,
-      "Tower Move": false,
+      "Theme (For Highlight)": 7.0,
+      "Tower Mode": 0.0,
       "Auto Swap": true,
       "Delay on jump": true,
       "Fast on RMB": false,
-      "Highlight blocks": true,
+      "Highlight blocks": false,
       "Safewalk": true,
-      "Show block count": true,
+      "Show block count": false,
       "Block Counter Shaders": true,
       "Silent swing": false,
       "Cancel Sprint Packet": true,
@@ -621,7 +621,7 @@
     },
     {
       "name": "Settings",
-      "Toggle sound": 1.0,
+      "Toggle sound": 4.0,
       "Set axe as weapon": true,
       "Set rod as weapon": false,
       "Set stick as weapon": false,
@@ -632,10 +632,7 @@
       "Random yaw factor": 0.0,
       "Send message on enable": true,
       "Offset": 0.5,
-      "Time multiplier": 0.4,
-      "Spaced Names": false,
-      "Special Naming": false,
-      "Weedhack": false
+      "Time multiplier": 0.4
     },
     {
       "name": "Speed",
@@ -664,7 +661,7 @@
     },
     {
       "name": "Step",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
       "Mode": 1.0
@@ -678,11 +675,11 @@
     },
     {
       "name": "TargetESP",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
       "keybind": 0,
-      "Theme": 25.0,
-      "Mode": 0.0,
+      "Theme": 7.0,
+      "Mode": 1.0,
       "Speed": 3.0,
       "Alpha": 85.0,
       "White": false
@@ -692,19 +689,19 @@
       "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Theme": 25.0,
-      "Mode": 5.0,
+      "Theme": 7.0,
+      "Mode": 1.0,
       "Show win or loss": true,
       "Traditional health color": false
     },
     {
       "name": "TargetStrafe",
-      "enabled": true,
+      "enabled": false,
       "hidden": false,
-      "keybind": 0,
+      "keybind": 19,
       "Range": 1.0,
-      "Allow speed": true,
-      "Allow fly": true,
+      "Allow speed": false,
+      "Allow fly": false,
       "Allow manual": true,
       "Strafe around": true,
       "Jump Only": true
@@ -746,11 +743,11 @@
     },
     {
       "name": "Watermark",
-      "enabled": false,
+      "enabled": true,
       "hidden": false,
       "keybind": 0,
-      "Mode": 9.0,
-      "Theme": 25.0
+      "Mode": 10.0,
+      "Theme": 7.0
     }
   ]
 }
